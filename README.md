@@ -1,4 +1,12 @@
-Generic django-app for content modeling Topic, Category, and Content schemas. 
+Generic django-app for content modeling. 
+
+- [x] Topic, Category, and Content schemas
+- [x] schemas tests (mostly done)
+- [ ] schemas to django models (wagtail)
+- [ ] schemas to CRUD api (DRF)
+- [ ] wagtail interfaces for content model(s) editing, etc..
+
+Goal is to create a free and open-source Contentful alternative in Django (CMS, content modeling, api managment).
 
 # URL Schema
 url_schema:
