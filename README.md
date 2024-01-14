@@ -14,7 +14,7 @@ url_example:
 
 # Hierarchy/Global Params/View Routing/View Arguments
 | hierarchy | global_params | view_routing | view_arguments | 
--------------------------------------------------------------
+|-----------|---------------|--------------|----------------|
   | /art                                      | ?              |->   topic_list            |((default) view_type)|
   | /art/                                     | ?view::list    |->   topic_list            |((list) view_type)|
   | /art /paintings                           | ?              |->   topic_category_list   |((default) view_type) |
