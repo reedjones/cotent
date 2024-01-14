@@ -13,10 +13,11 @@ url_example:
   /art  /paintings  /painting::the%20mona%20lisa  /gallery 
 
 # Hierarchy/Global Params/View Routing/View Arguments
-hierarchy/global_params/view_routing/view_arguments:
-  - /art                                       ?              ->   topic_list            ((default) view_type)
-  - /art/                                      ?view::list    ->   topic_list            ((list) view_type)
-  - /art /paintings                            ?              ->   topic_category_list   ((default) view_type) 
-  - /art /paintings                            ?view::grid    ->   topic_category_list   ((grid) view_type)                               
-  - /art /paintings /painting::the mona lisa   ?              ->   topic_category_detail  ((default) view_type) 
-  - /art /paintings /painting:: the mona lisa  ?view::gallery ->   topic_category_detail  ((gallery) view_type) 
+| hierarchy | global_params | view_routing | view_arguments | 
+-------------------------------------------------------------
+  | /art                                      | ?              |->   topic_list            |((default) view_type)|
+  | /art/                                     | ?view::list    |->   topic_list            |((list) view_type)|
+  | /art /paintings                           | ?              |->   topic_category_list   |((default) view_type) |
+  | /art /paintings                           | ?view::grid    |->   topic_category_list   |((grid) view_type)      |                         
+  | /art /paintings /painting::the mona lisa  | ?              |->   topic_category_detail  |((default) view_type) |
+  | /art /paintings /painting:: the mona lisa | ?view::gallery |->   topic_category_detail  |((gallery) view_type) |
